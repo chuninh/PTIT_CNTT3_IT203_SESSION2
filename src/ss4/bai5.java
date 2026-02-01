@@ -7,10 +7,8 @@ public class bai5{
     public static void main(String[] args) {
 
         String[] logs = {
-                "2024-05-20 | User: NguyenVanA | Action: BORROW | BookID: BK12345",
-                "2024-05-21 | User: TranThiB | Action: RETURN | BookID: BK12345",
-                "2024-05-22 | User: NguyenVanA | Action: BORROW | BookID: BK67890",
-                "2024-05-23 | User: LeVanC | Action: BORROW | BookID: BK11111"
+                "2024-05-20 | User: NguyenVanA123 | Action: BORROW | BookID: BK12345",
+                "2024-05-21 | User: TranThiB | Action: RETURN | BookID: BK12345"
         };
 
         String regex = "(\\d{4}-\\d{2}-\\d{2}) \\| User: (\\w+) \\| Action: (BORROW|RETURN) \\| BookID: (\\w+)";

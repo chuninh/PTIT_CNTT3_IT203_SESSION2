@@ -3,10 +3,9 @@ package ss4;
 import java.util.Scanner;
 public class bai2 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
 
-        System.out.print("Nhập mô tả sách: ");
-        String description = sc.nextLine();
+        String description =
+                "Sách lập trình Java cơ bản, Kệ: A12-B3, dành cho sinh viên CNTT";
 
         if (description.contains("Kệ:")) {
 
@@ -32,7 +31,7 @@ public class bai2 {
             System.out.println(newDescription);
 
         } else {
-            System.out.println("Không tìm thấy thông tin kệ sách trong mô tả.");
+            System.out.println("Không tìm thấy thông tin kệ sách.");
         }
     }
 }
